@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'app.apps.AppConfig'
+    #'usuarios'
 ]
 
 MIDDLEWARE = [
@@ -80,7 +81,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'docesdaleite', # Criar banco com esse nome
         'USER': 'postgres', #mudar isso
-        'PASSWORD': '22328490', #mudar isso
+        'PASSWORD': '1456321', #mudar isso
         'HOST': 'localhost',
         'PORT': '5432',
     }
